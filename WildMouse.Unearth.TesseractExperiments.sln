@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildMouse.Unearth.Tesseract4B", "WildMouse.Unearth.Tesseract4B\WildMouse.Unearth.Tesseract4B.csproj", "{48B05F64-FA9C-4CE1-ADFC-5ABFE5B58D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildMouse.Unearth.TestAppFW", "WildMouse.Unearth.TestAppFW\WildMouse.Unearth.TestAppFW.csproj", "{57579D13-D5F5-4BB2-8DA0-0C92E228E936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WildMouse.Unearth.TestAzureFunction", "WildMouse.Unearth.TestAzureFunction\WildMouse.Unearth.TestAzureFunction.csproj", "{1EEB4F60-CD56-4802-A59B-1F2AA23729C8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48B05F64-FA9C-4CE1-ADFC-5ABFE5B58D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B05F64-FA9C-4CE1-ADFC-5ABFE5B58D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B05F64-FA9C-4CE1-ADFC-5ABFE5B58D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B05F64-FA9C-4CE1-ADFC-5ABFE5B58D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57579D13-D5F5-4BB2-8DA0-0C92E228E936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57579D13-D5F5-4BB2-8DA0-0C92E228E936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57579D13-D5F5-4BB2-8DA0-0C92E228E936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57579D13-D5F5-4BB2-8DA0-0C92E228E936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEB4F60-CD56-4802-A59B-1F2AA23729C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEB4F60-CD56-4802-A59B-1F2AA23729C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEB4F60-CD56-4802-A59B-1F2AA23729C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEB4F60-CD56-4802-A59B-1F2AA23729C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
